@@ -11,6 +11,8 @@ Install Vundle:
 
 Copy the contents from Vimrc
 
+Follow instructions from: `https://github.com/ycm-core/YouCompleteMe#linux-64-bit`
+
 Install packages via Vundle:
 In vim run, `:PluginInstall`
 
