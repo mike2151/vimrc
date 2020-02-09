@@ -13,7 +13,8 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'mattn/emmet-vim'
 Plugin 'alvan/vim-closetag'
 Plugin 'wincent/command-t'
-" All of your Plugins must be added before the following line
+Plugin 'hhvm/vim-hack'
+Plugin 'dense-analysis/ale'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
