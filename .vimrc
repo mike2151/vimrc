@@ -15,6 +15,7 @@ Plugin 'alvan/vim-closetag'
 Plugin 'wincent/command-t'
 Plugin 'hhvm/vim-hack'
 Plugin 'dense-analysis/ale'
+Plugin 'mxw/vim-xhp'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -50,6 +51,8 @@ let g:ycm_key_list_select_completion = ['<TAB>']
 let g:ycm_key_list_select_previous_completion = ['<S-Tab>']
 
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
+
+set iskeyword-=_
 
 ca tn tabnew
 ca th tabp
