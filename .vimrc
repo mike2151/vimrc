@@ -16,12 +16,17 @@ Plugin 'wincent/command-t'
 Plugin 'hhvm/vim-hack'
 Plugin 'dense-analysis/ale'
 Plugin 'mxw/vim-xhp'
+Plugin 'tpope/vim-sleuth'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
 set runtimepath+=~/.vim_runtime
 set number
 set autoindent
+
+" There is no Hack auto indenter
+autocmd FileType hack setlocal indentexpr=
+
 source ~/.vim_runtime/vimrcs/basic.vim
 source ~/.vim_runtime/vimrcs/filetypes.vim
 source ~/.vim_runtime/vimrcs/plugins_config.vim
