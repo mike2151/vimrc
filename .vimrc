@@ -71,6 +71,8 @@ inoremap jj <ESC>
 map <Enter> o<ESC>
 map <S-Enter> <S-o><ESC>
 
+iunmap $e
+iunmap $q
 noremap <Tab> :><CR>
 noremap <S-Tab> :<<CR>
 vmap <Tab> :>
