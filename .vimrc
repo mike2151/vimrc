@@ -42,6 +42,8 @@ if &term =~ "xterm" || &term =~ "screen"
 endif
 
 let g:ale_linters = { 'hack': ['hack', 'hhast'] }
+let g:ale_fixers = { 'hack': ['hackfmt', 'trim_whitespace', 'remove_trailing_lines'] }
+let g:ale_fix_on_save = 1
 
 let g:closetag_filenames = '*.html,*.xhtml,*.phtml'
 let g:closetag_filetypes = 'html,xhtml<Plug>PeepOpenhtml'
