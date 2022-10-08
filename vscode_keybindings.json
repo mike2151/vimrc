@@ -1,0 +1,54 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+alt+cmd+down",
+        "command": "workbench.action.terminal.selectToNextCommand",
+        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "shift+cmd+down",
+        "command": "-workbench.action.terminal.selectToNextCommand",
+        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+shift+down",
+        "command": "cursorBottomSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+cmd+down",
+        "command": "-cursorBottomSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+cmd+down",
+        "command": "terminal.focus"
+    },
+    {
+        "key": "alt+cmd+up",
+        "command": "editor.action.insertCursorAbove",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+cmd+up",
+        "command": "-editor.action.insertCursorAbove",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+cmd+x",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "ctrl+cmd+c",
+        "command": "workbench.action.focusActiveEditorGroup"
+    },
+    {
+        "key":     "ctrl+`",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key":     "ctrl+`",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when":    "terminalFocus"
+    }
+]
